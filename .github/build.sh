@@ -96,11 +96,11 @@ ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${ENCRYPTED_IV_VAR}
 
-eval `ssh-agent -s`
+# eval `ssh-agent -s`
 # Use stdin/stdout instead of key writing to disk
-openssl aes-256-cbc -K $ENCRYPTION_LABEL -iv $ENCRYPTION_LABEL -in "$CWD/.github/deploy_key.enc" -d | ssh-add -
+# openssl aes-256-cbc -K $ENCRYPTION_LABEL -iv $ENCRYPTION_LABEL -in "$CWD/.github/deploy_key.enc" -d | ssh-add -
 
 # Now that we're all set up, we can push.
-git push --quiet $SSH_REPO $TARGET_BRANCH
+git push $SSH_REPO $TARGET_BRANCH
 
 echo "Published to GitHub Pages https://$REPO_USER.github.io/$REPO_NAME/"
