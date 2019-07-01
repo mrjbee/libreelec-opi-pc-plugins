@@ -3,6 +3,7 @@
 # Adapted from https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 
 set -e
+set -o
 
 if [ "$TRAVIS_PULL_REQUEST" != 'false' ]; then
     # don't run for PRs
@@ -93,7 +94,7 @@ git commit -m "Deploy to GitHub Pages: ${SHA} (Travis Build: $TRAVIS_BUILD_NUMBE
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
+ENCRYPTED_IV=0
 
 eval `ssh-agent -s`
 # Use stdin/stdout instead of key writing to disk
