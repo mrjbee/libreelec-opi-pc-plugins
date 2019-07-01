@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="audioencoder.lame" version="2.0.1.3" name="Lame MP3 Audio Encoder" provider-name="spiff">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.instance.audioencoder" version="2.0.0"/>
+  </requires>
+  <extension point="kodi.audioencoder" extension=".mp3" library_linux="audioencoder.lame.so.2.0.1"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Lame MP3 Audio Encoder</summary>
+    <description lang="en">It use LAME, the high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.</description>
+    <platform/>
+  </extension>
+</addon>

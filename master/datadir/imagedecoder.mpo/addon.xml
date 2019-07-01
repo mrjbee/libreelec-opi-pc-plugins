@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="imagedecoder.mpo" version="1.0.1.0" name="MPO image decoder" provider-name="spiff">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.instance.imagedecoder" version="2.0.0"/>
+  </requires>
+  <extension point="kodi.imagedecoder" library_linux="imagedecoder.mpo.so.1.0.1" extension=".mpo" mimetype="image/mpo"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>libmpo based image decoder</summary>
+    <description>libmpo based image decoder</description>
+    <platform/>
+  </extension>
+</addon>

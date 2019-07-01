@@ -1,0 +1,186 @@
+# mrjbee/libreelec-opi-pc-plugins Kodi Addon Repository
+
+Download the [repository addon zip](master/datadir/repository.mrjbee.libreelec-opi-pc-plugins/repository.mrjbee.libreelec-opi-pc-plugins-1.0.1.zip) to install.
+
+The following addons are available here:
+
+[__master__](master/addons.xml) (Kodi ver. 17.0.0):
+
+- [__2SF Audio Decoder__](master/datadir/audiodecoder.2sf/audiodecoder.2sf-2.0.0.3.zip) audiodecoder.2sf v2.0.0.3
+- [__ASAP Audio Decoder__](master/datadir/audiodecoder.asap/audiodecoder.asap-2.0.0.3.zip) audiodecoder.asap v2.0.0.3
+- [__DUMB Audio Decoder__](master/datadir/audiodecoder.dumb/audiodecoder.dumb-2.0.0.3.zip) audiodecoder.dumb v2.0.0.3
+- [__FluidSynth MIDI Audio Decoder__](master/datadir/audiodecoder.fluidsynth/audiodecoder.fluidsynth-2.0.0.3.zip) audiodecoder.fluidsynth v2.0.0.3
+- [__GME Audio Decoder__](master/datadir/audiodecoder.gme/audiodecoder.gme-2.0.0.3.zip) audiodecoder.gme v2.0.0.3
+- [__GSF Audio Decoder__](master/datadir/audiodecoder.gsf/audiodecoder.gsf-2.0.0.3.zip) audiodecoder.gsf v2.0.0.3
+- [__Modplug Audio Decoder__](master/datadir/audiodecoder.modplug/audiodecoder.modplug-2.0.0.3.zip) audiodecoder.modplug v2.0.0.3
+- [__NCSF Audio Decoder__](master/datadir/audiodecoder.ncsf/audiodecoder.ncsf-2.0.0.3.zip) audiodecoder.ncsf v2.0.0.3
+- [__Nosefart Audio Decoder__](master/datadir/audiodecoder.nosefart/audiodecoder.nosefart-2.0.0.3.zip) audiodecoder.nosefart v2.0.0.3
+- [__OpenMPT Audio Decoder__](master/datadir/audiodecoder.openmpt/audiodecoder.openmpt-2.0.1.3.zip) audiodecoder.openmpt v2.0.1.3
+- [__Org Audio Decoder__](master/datadir/audiodecoder.organya/audiodecoder.organya-1.1.3.3.zip) audiodecoder.organya v1.1.3.3
+- [__QSF Audio Decoder__](master/datadir/audiodecoder.qsf/audiodecoder.qsf-2.0.0.3.zip) audiodecoder.qsf v2.0.0.3
+- [__Sidplay Audio Decoder__](master/datadir/audiodecoder.sidplay/audiodecoder.sidplay-1.1.3.3.zip) audiodecoder.sidplay v1.1.3.3
+- [__SPC Audio Decoder__](master/datadir/audiodecoder.snesapu/audiodecoder.snesapu-2.0.0.3.zip) audiodecoder.snesapu v2.0.0.3
+- [__SSF/DSF Audio Decoder__](master/datadir/audiodecoder.ssf/audiodecoder.ssf-2.0.0.3.zip) audiodecoder.ssf v2.0.0.3
+- [__YM Audio Decoder__](master/datadir/audiodecoder.stsound/audiodecoder.stsound-2.0.0.3.zip) audiodecoder.stsound v2.0.0.3
+- [__Timidity Audio Decoder__](master/datadir/audiodecoder.timidity/audiodecoder.timidity-2.0.1.3.zip) audiodecoder.timidity v2.0.1.3
+- [__PSF Audio Decoder__](master/datadir/audiodecoder.upse/audiodecoder.upse-2.0.0.3.zip) audiodecoder.upse v2.0.0.3
+- [__USF Audio Decoder__](master/datadir/audiodecoder.usf/audiodecoder.usf-2.0.0.3.zip) audiodecoder.usf v2.0.0.3
+- [__VGM Audio Decoder__](master/datadir/audiodecoder.vgmstream/audiodecoder.vgmstream-1.1.3.3.zip) audiodecoder.vgmstream v1.1.3.3
+- [__WSR Audio Decoder__](master/datadir/audiodecoder.wsr/audiodecoder.wsr-2.0.0.3.zip) audiodecoder.wsr v2.0.0.3
+- [__Flac Audio Encoder__](master/datadir/audioencoder.flac/audioencoder.flac-2.0.1.3.zip) audioencoder.flac v2.0.1.3
+- [__Lame MP3 Audio Encoder__](master/datadir/audioencoder.lame/audioencoder.lame-2.0.1.3.zip) audioencoder.lame v2.0.1.3
+- [__Vorbis Audio Encoder__](master/datadir/audioencoder.vorbis/audioencoder.vorbis-2.0.1.3.zip) audioencoder.vorbis v2.0.1.3
+- [__Wav Audio Encoder__](master/datadir/audioencoder.wav/audioencoder.wav-2.0.1.3.zip) audioencoder.wav v2.0.1.3
+- [__HDHomeRun__](master/datadir/driver.dvb.hdhomerun/driver.dvb.hdhomerun-9.1.900.101.zip) driver.dvb.hdhomerun v9.1.900.101
+- [__Sundtek MediaTV__](master/datadir/driver.dvb.sundtek-mediatv/driver.dvb.sundtek-mediatv-9.1.900.105.zip) driver.dvb.sundtek-mediatv v9.1.900.105
+- [__iMON-MCE__](master/datadir/driver.remote.imon-mce/driver.remote.imon-mce-9.1.900.101.zip) driver.remote.imon-mce v9.1.900.101
+- [__Sapphire Remote Driver__](master/datadir/driver.remote.sapphire/driver.remote.sapphire-9.1.900.105.zip) driver.remote.sapphire v9.1.900.105
+- [__Steam Controller Driver__](master/datadir/driver.steamcontroller/driver.steamcontroller-9.1.900.102.zip) driver.steamcontroller v9.1.900.102
+- [__Libretro Compatibility__](master/datadir/game.libretro/game.libretro-1.1.0.114.zip) game.libretro v1.1.0.114
+- [__2048__](master/datadir/game.libretro.2048/game.libretro.2048-1.0.0.105.114.zip) game.libretro.2048 v1.0.0.105.114
+- [__The 3DO Company - 3DO (4DO)__](master/datadir/game.libretro.4do/game.libretro.4do-1.3.2.4.115.zip) game.libretro.4do v1.3.2.4.115
+- [__Nintendo - SNES / Famicom (Beetle bsnes)__](master/datadir/game.libretro.beetle-bsnes/game.libretro.beetle-bsnes-0.9.26.3.113.zip) game.libretro.beetle-bsnes v0.9.26.3.113
+- [__Nintendo - Game Boy Advance (Beetle GBA)__](master/datadir/game.libretro.beetle-gba/game.libretro.beetle-gba-0.9.36.2.114.zip) game.libretro.beetle-gba v0.9.36.2.114
+- [__Atari - Lynx (Beetle Handy)__](master/datadir/game.libretro.beetle-lynx/game.libretro.beetle-lynx-0.9.47.4.113.zip) game.libretro.beetle-lynx v0.9.47.4.113
+- [__SNK - Neo Geo Pocket / Color (Beetle NeoPop)__](master/datadir/game.libretro.beetle-ngp/game.libretro.beetle-ngp-0.9.36.3.114.zip) game.libretro.beetle-ngp v0.9.36.3.114
+- [__NEC - PC Engine / CD (Beetle PCE FAST)__](master/datadir/game.libretro.beetle-pce-fast/game.libretro.beetle-pce-fast-0.9.38.2.114.zip) game.libretro.beetle-pce-fast v0.9.38.2.114
+- [__NEC - PC-FX (Beetle PC-FX)__](master/datadir/game.libretro.beetle-pcfx/game.libretro.beetle-pcfx-0.9.36.1.114.zip) game.libretro.beetle-pcfx v0.9.36.1.114
+- [__Sony - PlayStation (Beetle PSX)__](master/datadir/game.libretro.beetle-psx/game.libretro.beetle-psx-0.9.44.7.114.zip) game.libretro.beetle-psx v0.9.44.7.114
+- [__NEC - PC Engine SuperGrafx (Beetle SGX)__](master/datadir/game.libretro.beetle-supergrafx/game.libretro.beetle-supergrafx-0.9.41.2.113.zip) game.libretro.beetle-supergrafx v0.9.41.2.113
+- [__Nintendo - Virtual Boy (Beetle VB)__](master/datadir/game.libretro.beetle-vb/game.libretro.beetle-vb-0.9.36.3.114.zip) game.libretro.beetle-vb v0.9.36.3.114
+- [__Bandai - WonderSwan/Color (Beetle Cygne)__](master/datadir/game.libretro.beetle-wswan/game.libretro.beetle-wswan-0.9.35.3.114.zip) game.libretro.beetle-wswan v0.9.35.3.114
+- [__MSX/SVI/ColecoVision/SG-1000 (blueMSX)__](master/datadir/game.libretro.bluemsx/game.libretro.bluemsx-0.0.1.5.114.zip) game.libretro.bluemsx v0.0.1.5.114
+- [__Nintendo - NES / Famicom (bnes)__](master/datadir/game.libretro.bnes/game.libretro.bnes-0.83.0.3.113.zip) game.libretro.bnes v0.83.0.3.113
+- [__Nintendo - SNES / Famicom (bsnes-mercury Accuracy)__](master/datadir/game.libretro.bsnes-mercury-accuracy/game.libretro.bsnes-mercury-accuracy-0.94.0.2.114.zip) game.libretro.bsnes-mercury-accuracy v0.94.0.2.114
+- [__Nintendo - SNES / Famicom (bsnes-mercury Balanced)__](master/datadir/game.libretro.bsnes-mercury-balanced/game.libretro.bsnes-mercury-balanced-0.94.0.2.114.zip) game.libretro.bsnes-mercury-balanced v0.94.0.2.114
+- [__Nintendo - SNES / Famicom (bsnes-mercury Performance)__](master/datadir/game.libretro.bsnes-mercury-performance/game.libretro.bsnes-mercury-performance-0.94.0.2.114.zip) game.libretro.bsnes-mercury-performance v0.94.0.2.114
+- [__Amstrad - CPC (Caprice32)__](master/datadir/game.libretro.cap32/game.libretro.cap32-4.2.0.3.114.zip) game.libretro.cap32 v4.2.0.3.114
+- [__Dinothawr__](master/datadir/game.libretro.dinothawr/game.libretro.dinothawr-1.0.0.3.113.zip) game.libretro.dinothawr v1.0.0.3.113
+- [__DOS (DOSBox)__](master/datadir/game.libretro.dosbox/game.libretro.dosbox-0.74.0.3.114.zip) game.libretro.dosbox v0.74.0.3.114
+- [__Arcade (FB Alpha)__](master/datadir/game.libretro.fbalpha/game.libretro.fbalpha-0.2.97.11.114.zip) game.libretro.fbalpha v0.2.97.11.114
+- [__Nintendo - NES / Famicom (FCEUmm)__](master/datadir/game.libretro.fceumm/game.libretro.fceumm-0.0.1.9.114.zip) game.libretro.fceumm v0.0.1.9.114
+- [__Microsoft - MSX (fMSX)__](master/datadir/game.libretro.fmsx/game.libretro.fmsx-4.9.0.3.114.zip) game.libretro.fmsx v4.9.0.3.114
+- [__ZX Spectrum (Fuse)__](master/datadir/game.libretro.fuse/game.libretro.fuse-1.1.1.3.114.zip) game.libretro.fuse v1.1.1.3.114
+- [__Nintendo - Game Boy / Color (Gambatte)__](master/datadir/game.libretro.gambatte/game.libretro.gambatte-0.5.0.5.114.zip) game.libretro.gambatte v0.5.0.5.114
+- [__Sega - MS/GG/MD/CD (Genesis Plus GX)__](master/datadir/game.libretro.genplus/game.libretro.genplus-1.7.4.4.114.zip) game.libretro.genplus v1.7.4.4.114
+- [__Handheld Electronic (GW)__](master/datadir/game.libretro.gw/game.libretro.gw-1.6.3.2.112.zip) game.libretro.gw v1.6.3.2.112
+- [__Atari - Lynx (Handy)__](master/datadir/game.libretro.handy/game.libretro.handy-0.97.0.1.113.zip) game.libretro.handy v0.97.0.1.113
+- [__Atari - ST/STE/TT/Falcon (Hatari)__](master/datadir/game.libretro.hatari/game.libretro.hatari-1.8.0.3.113.zip) game.libretro.hatari v1.8.0.3.113
+- [__Arcade (MAME 2000)__](master/datadir/game.libretro.mame2000/game.libretro.mame2000-0.37.0.4.106.zip) game.libretro.mame2000 v0.37.0.4.106
+- [__Arcade (MAME 2003)__](master/datadir/game.libretro.mame2003/game.libretro.mame2003-0.78.0.11.106.zip) game.libretro.mame2003 v0.78.0.11.106
+- [__Arcade (MAME 2003-Plus)__](master/datadir/game.libretro.mame2003_plus/game.libretro.mame2003_plus-0.0.1.19.102.zip) game.libretro.mame2003_plus v0.0.1.19.102
+- [__Arcade (MAME 2010)__](master/datadir/game.libretro.mame2010/game.libretro.mame2010-0.139.0.1.104.zip) game.libretro.mame2010 v0.139.0.1.104
+- [__Arcade (MAME 2014)__](master/datadir/game.libretro.mame2014/game.libretro.mame2014-0.159.0.1.104.zip) game.libretro.mame2014 v0.159.0.1.104
+- [__Nintendo - DS (melonDS)__](master/datadir/game.libretro.melonds/game.libretro.melonds-0.6.0.2.107.zip) game.libretro.melonds v0.6.0.2.107
+- [__Nintendo - NES / Famicom (Mesen)__](master/datadir/game.libretro.mesen/game.libretro.mesen-0.9.7.5.1.zip) game.libretro.mesen v0.9.7.5.1
+- [__Nintendo - Game Boy Advance (Meteor)__](master/datadir/game.libretro.meteor/game.libretro.meteor-1.4.0.1.111.zip) game.libretro.meteor v1.4.0.1.111
+- [__Nintendo - Game Boy Advance (mGBA)__](master/datadir/game.libretro.mgba/game.libretro.mgba-0.7.0.5.114.zip) game.libretro.mgba v0.7.0.5.114
+- [__Mr.Boom (Bomberman)__](master/datadir/game.libretro.mrboom/game.libretro.mrboom-4.7.0.107.114.zip) game.libretro.mrboom v4.7.0.107.114
+- [__Nintendo - NES / Famicom (Nestopia UE)__](master/datadir/game.libretro.nestopia/game.libretro.nestopia-1.50.0.3.114.zip) game.libretro.nestopia v1.50.0.3.114
+- [__Cave Story (NXEngine)__](master/datadir/game.libretro.nx/game.libretro.nx-1.0.0.4.113.zip) game.libretro.nx v1.0.0.4.113
+- [__Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)__](master/datadir/game.libretro.o2em/game.libretro.o2em-1.18.0.3.113.zip) game.libretro.o2em v1.18.0.3.113
+- [__Sony - PlayStation (PCSX ReARMed)__](master/datadir/game.libretro.pcsx-rearmed/game.libretro.pcsx-rearmed-22.0.0.4.116.zip) game.libretro.pcsx-rearmed v22.0.0.4.116
+- [__Sega - MS/MD/CD/32X (PicoDrive)__](master/datadir/game.libretro.picodrive/game.libretro.picodrive-1.92.0.4.113.zip) game.libretro.picodrive v1.92.0.4.113
+- [__Nintendo - Pokémon Mini (PokeMini)__](master/datadir/game.libretro.pokemini/game.libretro.pokemini-0.60.0.5.108.zip) game.libretro.pokemini v0.60.0.5.108
+- [__Doom (PrBoom)__](master/datadir/game.libretro.prboom/game.libretro.prboom-2.5.0.5.115.zip) game.libretro.prboom v2.5.0.5.115
+- [__Atari - 7800 (ProSystem)__](master/datadir/game.libretro.prosystem/game.libretro.prosystem-1.3.0.3.115.zip) game.libretro.prosystem v1.3.0.3.115
+- [__Nintendo - NES / Famicom (QuickNES)__](master/datadir/game.libretro.quicknes/game.libretro.quicknes-1.0.0.5.113.zip) game.libretro.quicknes v1.0.0.5.113
+- [__Nintendo - Game Boy / Color (SameBoy)__](master/datadir/game.libretro.sameboy/game.libretro.sameboy-0.11.2.6.107.zip) game.libretro.sameboy v0.11.2.6.107
+- [__ScummVM__](master/datadir/game.libretro.scummvm/game.libretro.scummvm-2.0.0.4.115.zip) game.libretro.scummvm v2.0.0.4.115
+- [__Nintendo - SNES / Famicom (Snes9x)__](master/datadir/game.libretro.snes9x/game.libretro.snes9x-1.58.0.6.114.zip) game.libretro.snes9x v1.58.0.6.114
+- [__Nintendo - SNES / Famicom (Snes9x 2002)__](master/datadir/game.libretro.snes9x2002/game.libretro.snes9x2002-7.2.0.5.112.zip) game.libretro.snes9x2002 v7.2.0.5.112
+- [__Nintendo - SNES / Famicom (Snes9x 2010)__](master/datadir/game.libretro.snes9x2010/game.libretro.snes9x2010-1.52.4.4.113.zip) game.libretro.snes9x2010 v1.52.4.4.113
+- [__Atari - 2600 (Stella)__](master/datadir/game.libretro.stella/game.libretro.stella-3.9.3.4.112.zip) game.libretro.stella v3.9.3.4.112
+- [__Nintendo - Game Boy / Color (TGB Dual)__](master/datadir/game.libretro.tgbdual/game.libretro.tgbdual-0.8.3.3.112.zip) game.libretro.tgbdual v0.8.3.3.112
+- [__Quake 1 (TyrQuake)__](master/datadir/game.libretro.tyrquake/game.libretro.tyrquake-0.62.0.3.114.zip) game.libretro.tyrquake v0.62.0.3.114
+- [__Commodore - Amiga (P-UAE)__](master/datadir/game.libretro.uae/game.libretro.uae-2.6.1.1.107.zip) game.libretro.uae v2.6.1.1.107
+- [__Amiga (UAE4ARM)__](master/datadir/game.libretro.uae4arm/game.libretro.uae4arm-0.0.0.102.zip) game.libretro.uae4arm v0.0.0.102
+- [__Nintendo - Game Boy Advance (VBA-M)__](master/datadir/game.libretro.vbam/game.libretro.vbam-2.1.0.4.113.zip) game.libretro.vbam v2.1.0.4.113
+- [__Nintendo - Game Boy Advance (VBA Next)__](master/datadir/game.libretro.vba-next/game.libretro.vba-next-1.0.2.1.114.zip) game.libretro.vba-next v1.0.2.1.114
+- [__GCE - Vectrex (vecx)__](master/datadir/game.libretro.vecx/game.libretro.vecx-1.2.0.3.114.zip) game.libretro.vecx v1.2.0.3.114
+- [__Commodore - C64 (VICE C64)__](master/datadir/game.libretro.vice/game.libretro.vice-3.0.0.3.108.zip) game.libretro.vice v3.0.0.3.108
+- [__Atari - Jaguar (Virtual Jaguar)__](master/datadir/game.libretro.virtualjaguar/game.libretro.virtualjaguar-2.1.0.3.114.zip) game.libretro.virtualjaguar v2.1.0.3.114
+- [__VRAM Test__](master/datadir/game.libretro.vram-test/game.libretro.vram-test-1.0.0.101.zip) game.libretro.vram-test v1.0.0.101
+- [__Sega - Saturn (Yabause)__](master/datadir/game.libretro.yabause/game.libretro.yabause-0.9.14.1.115.zip) game.libretro.yabause v0.9.14.1.115
+- [__MPO image decoder__](master/datadir/imagedecoder.mpo/imagedecoder.mpo-1.0.1.0.zip) imagedecoder.mpo v1.0.1.0
+- [__libraw image decoder__](master/datadir/imagedecoder.raw/imagedecoder.raw-2.0.1.1.zip) imagedecoder.raw v2.0.1.1
+- [__InputStream Adaptive__](master/datadir/inputstream.adaptive/inputstream.adaptive-2.3.22.1.zip) inputstream.adaptive v2.3.22.1
+- [__RTMP Input__](master/datadir/inputstream.rtmp/inputstream.rtmp-2.0.5.1.zip) inputstream.rtmp v2.0.5.1
+- [__X-Arcade Tankstick Driver__](master/datadir/peripheral.xarcade/peripheral.xarcade-1.0.0.104.zip) peripheral.xarcade v1.0.0.104
+- [__ARGUS TV client__](master/datadir/pvr.argustv/pvr.argustv-3.5.4.3.zip) pvr.argustv v3.5.4.3
+- [__PVR Demo Client__](master/datadir/pvr.demo/pvr.demo-3.6.1.3.zip) pvr.demo v3.6.1.3
+- [__TVMosaic/DVBLink PVR Client__](master/datadir/pvr.dvblink/pvr.dvblink-4.7.2.1.zip) pvr.dvblink v4.7.2.1
+- [__DVBViewer Client__](master/datadir/pvr.dvbviewer/pvr.dvbviewer-3.7.11.3.zip) pvr.dvbviewer v3.7.11.3
+- [__PVR Filmon Client__](master/datadir/pvr.filmon/pvr.filmon-2.4.4.3.zip) pvr.filmon v2.4.4.3
+- [__PVR HDHomeRun Client__](master/datadir/pvr.hdhomerun/pvr.hdhomerun-3.5.0.3.zip) pvr.hdhomerun v3.5.0.3
+- [__Tvheadend HTSP Client__](master/datadir/pvr.hts/pvr.hts-4.4.18.1.zip) pvr.hts v4.4.18.1
+- [__PVR IPTV Simple Client__](master/datadir/pvr.iptvsimple/pvr.iptvsimple-3.5.8.3.zip) pvr.iptvsimple v3.5.8.3
+- [__MediaPortal PVR Client__](master/datadir/pvr.mediaportal.tvserver/pvr.mediaportal.tvserver-3.5.18.3.zip) pvr.mediaportal.tvserver v3.5.18.3
+- [__MythTV PVR Client__](master/datadir/pvr.mythtv/pvr.mythtv-5.10.7.1.zip) pvr.mythtv v5.10.7.1
+- [__NextPVR PVR Client__](master/datadir/pvr.nextpvr/pvr.nextpvr-3.3.15.3.zip) pvr.nextpvr v3.3.15.3
+- [__Njoy N7 PVR Client__](master/datadir/pvr.njoy/pvr.njoy-3.4.2.3.zip) pvr.njoy v3.4.2.3
+- [__Digital Devices Octopus NET Client__](master/datadir/pvr.octonet/pvr.octonet-0.7.0.3.zip) pvr.octonet v0.7.0.3
+- [__PCTV Systems Client__](master/datadir/pvr.pctv/pvr.pctv-2.4.5.3.zip) pvr.pctv v2.4.5.3
+- [__PVR Client for sledovanitv.cz (unofficial)__](master/datadir/pvr.sledovanitv.cz/pvr.sledovanitv.cz-1.5.0.1.zip) pvr.sledovanitv.cz v1.5.0.1
+- [__Stalker Client__](master/datadir/pvr.stalker/pvr.stalker-3.4.9.3.zip) pvr.stalker v3.4.9.3
+- [__Teleboy PVR Client__](master/datadir/pvr.teleboy/pvr.teleboy-18.0.24.2.zip) pvr.teleboy v18.0.24.2
+- [__VBox TV Gateway PVR Client__](master/datadir/pvr.vbox/pvr.vbox-4.4.8.3.zip) pvr.vbox v4.4.8.3
+- [__VDR VNSI Client__](master/datadir/pvr.vdr.vnsi/pvr.vdr.vnsi-3.6.3.2.zip) pvr.vdr.vnsi v3.6.3.2
+- [__Enigma2 Client__](master/datadir/pvr.vuplus/pvr.vuplus-3.25.0.1.zip) pvr.vuplus v3.25.0.1
+- [__PVR WMC Client__](master/datadir/pvr.wmc/pvr.wmc-2.4.4.3.zip) pvr.wmc v2.4.4.3
+- [__Zattoo PVR Client__](master/datadir/pvr.zattoo/pvr.zattoo-18.1.3.1.zip) pvr.zattoo v18.1.3.1
+- [__Kodinerds Add-ons__](master/datadir/repository.kodinerds/repository.kodinerds-9.0.103.103.zip) repository.kodinerds v9.0.103.103
+- [__LinuxServer.io's Docker Add-ons__](master/datadir/repository.linuxserver.docker/repository.linuxserver.docker-9.0.102.102.zip) repository.linuxserver.docker v9.0.102.102
+- [__mrjbee/libreelec-opi-pc-plugins Repository__](master/datadir/repository.mrjbee.libreelec-opi-pc-plugins/repository.mrjbee.libreelec-opi-pc-plugins-1.0.1.zip) repository.mrjbee.libreelec-opi-pc-plugins v1.0.1
+- [__ShaderToy__](master/datadir/screensaver.shadertoy/screensaver.shadertoy-2.0.0.2.zip) screensaver.shadertoy v2.0.0.2
+- [__VDR Configuration__](master/datadir/script.config.vdr/script.config.vdr-9.1.900.103.zip) script.config.vdr v9.1.900.103
+- [__Moonlight__](master/datadir/script.moonlight/script.moonlight-9.1.900.110.zip) script.moonlight v9.1.900.110
+- [__Bluetooth Audio Device Changer__](master/datadir/service.bluetooth-audio/service.bluetooth-audio-9.1.900.101.zip) service.bluetooth-audio v9.1.900.101
+- [__Emby Server__](master/datadir/service.emby/service.emby-9.1.900.124.zip) service.emby v9.1.900.124
+- [__Emby Server 4__](master/datadir/service.emby4/service.emby4-9.1.900.102.zip) service.emby4 v9.1.900.102
+- [__Hyperion__](master/datadir/service.hyperion/service.hyperion-9.1.900.109.zip) service.hyperion v9.1.900.109
+- [__LCDproc__](master/datadir/service.lcdd/service.lcdd-9.1.900.107.zip) service.lcdd v9.1.900.107
+- [__Librespot__](master/datadir/service.librespot/service.librespot-9.1.900.115.zip) service.librespot v9.1.900.115
+- [__Locale__](master/datadir/service.locale/service.locale-9.1.900.102.zip) service.locale v9.1.900.102
+- [__MariaDB SQL database server__](master/datadir/service.mariadb/service.mariadb-9.1.900.103.zip) service.mariadb v9.1.900.103
+- [__MiniDLNA (ReadyMedia)__](master/datadir/service.minidlna/service.minidlna-9.1.900.101.zip) service.minidlna v9.1.900.101
+- [__Minisatip__](master/datadir/service.minisatip/service.minisatip-9.1.900.100.zip) service.minisatip v9.1.900.100
+- [__Boblight__](master/datadir/service.multimedia.boblightd/service.multimedia.boblightd-9.1.900.101.zip) service.multimedia.boblightd v9.1.900.101
+- [__Music Player Daemon (MPD)__](master/datadir/service.multimedia.mpd/service.multimedia.mpd-9.1.900.107.zip) service.multimedia.mpd v9.1.900.107
+- [__Tvheadend Server 4.0__](master/datadir/service.multimedia.tvheadend/service.multimedia.tvheadend-9.1.900.100.zip) service.multimedia.tvheadend v9.1.900.100
+- [__VDR PVR Backend__](master/datadir/service.multimedia.vdr-addon/service.multimedia.vdr-addon-9.1.900.110.zip) service.multimedia.vdr-addon v9.1.900.110
+- [__Net-SNMP__](master/datadir/service.net-snmp/service.net-snmp-9.1.900.106.zip) service.net-snmp v9.1.900.106
+- [__PC/SC Smart Card Daemon__](master/datadir/service.pcscd/service.pcscd-9.1.900.100.zip) service.pcscd v9.1.900.100
+- [__ProFTPD Server__](master/datadir/service.proftpd/service.proftpd-9.1.900.102.zip) service.proftpd v9.1.900.102
+- [__Rsyslog__](master/datadir/service.rsyslog/service.rsyslog-9.1.900.104.zip) service.rsyslog v9.1.900.104
+- [__Snapclient__](master/datadir/service.snapclient/service.snapclient-9.1.900.102.zip) service.snapclient v9.1.900.102
+- [__Snapserver__](master/datadir/service.snapserver/service.snapserver-9.1.900.102.zip) service.snapserver v9.1.900.102
+- [__OSCam__](master/datadir/service.softcam.oscam/service.softcam.oscam-9.1.900.109.zip) service.softcam.oscam v9.1.900.109
+- [__Docker__](master/datadir/service.system.docker/service.system.docker-9.1.900.125.zip) service.system.docker v9.1.900.125
+- [__Inadyn__](master/datadir/service.system.inadyn/service.system.inadyn-9.1.900.105.zip) service.system.inadyn v9.1.900.105
+- [__Syncthing__](master/datadir/service.system.syncthing/service.system.syncthing-9.1.900.107.zip) service.system.syncthing v9.1.900.107
+- [__tinc__](master/datadir/service.system.tinc/service.system.tinc-9.1.900.105.zip) service.system.tinc v9.1.900.105
+- [__Web SSH Terminal__](master/datadir/service.ttyd/service.ttyd-9.1.900.100.zip) service.ttyd v9.1.900.100
+- [__Tvheadend Server 4.2__](master/datadir/service.tvheadend42/service.tvheadend42-9.1.900.119.zip) service.tvheadend42 v9.1.900.119
+- [__TV Mosaic__](master/datadir/service.tvmosaic/service.tvmosaic-9.1.900.100.zip) service.tvmosaic v9.1.900.100
+- [__iPhone Tether__](master/datadir/service.usbmuxd/service.usbmuxd-9.1.900.101.zip) service.usbmuxd v9.1.900.101
+- [__WebGrab+Plus__](master/datadir/service.webgrabplus/service.webgrabplus-9.1.900.100.zip) service.webgrabplus v9.1.900.100
+- [__Estouchy__](master/datadir/skin.estouchy/skin.estouchy-2.0.24.101.zip) skin.estouchy v2.0.24.101
+- [__BTRFS Tools__](master/datadir/tools.btrfs-progs/tools.btrfs-progs-9.1.900.101.zip) tools.btrfs-progs v9.1.900.101
+- [__.Net Core Runtime__](master/datadir/tools.dotnet-runtime/tools.dotnet-runtime-9.1.900.106.zip) tools.dotnet-runtime v9.1.900.106
+- [__FFmpeg Tools__](master/datadir/tools.ffmpeg-tools/tools.ffmpeg-tools-9.1.900.106.zip) tools.ffmpeg-tools v9.1.900.106
+- [__Mono__](master/datadir/tools.mono/tools.mono-9.1.900.100.zip) tools.mono v9.1.900.100
+- [__Archive support__](master/datadir/vfs.libarchive/vfs.libarchive-1.0.5.1.zip) vfs.libarchive v1.0.5.1
+- [__RAR archive support__](master/datadir/vfs.rar/vfs.rar-2.0.7.1.zip) vfs.rar v2.0.7.1
+- [__SFTP support__](master/datadir/vfs.sftp/vfs.sftp-1.0.1.1.zip) vfs.sftp v1.0.1.1
+- [__DVB Tools__](master/datadir/virtual.dvb-tools/virtual.dvb-tools-9.1.900.105.zip) virtual.dvb-tools v9.1.900.105
+- [__Game Tools__](master/datadir/virtual.game-tools/virtual.game-tools-9.1.900.101.zip) virtual.game-tools v9.1.900.101
+- [__Multimedia Tools__](master/datadir/virtual.multimedia-tools/virtual.multimedia-tools-9.1.900.109.zip) virtual.multimedia-tools v9.1.900.109
+- [__Network Tools__](master/datadir/virtual.network-tools/virtual.network-tools-9.1.900.103.zip) virtual.network-tools v9.1.900.103
+- [__System Tools__](master/datadir/virtual.system-tools/virtual.system-tools-9.1.900.111.zip) virtual.system-tools v9.1.900.111
+- [__Shadertoy__](master/datadir/visualization.shadertoy/visualization.shadertoy-1.1.10.1.zip) visualization.shadertoy v1.1.10.1
+- [__Spectrum__](master/datadir/visualization.spectrum/visualization.spectrum-2.0.4.3.zip) visualization.spectrum v2.0.4.3
+- [__Waveform__](master/datadir/visualization.waveform/visualization.waveform-2.0.1.3.zip) visualization.waveform v2.0.1.3
+
+----
+_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``39293bc``](https://github.com/mrjbee/libreelec-opi-pc-plugins/commit/39293bc156f924e0af9a20b3a4e160b760cb075e)
