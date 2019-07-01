@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="fceumm_aspect" values="8:7 PAR|4:3" default="8:7 PAR"/>
+		<setting label="30002" type="select" id="fceumm_nospritelimit" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="fceumm_overclocking" values="disabled|2x-Postrender|2x-VBlank" default="disabled"/>
+		<setting label="30004" type="select" id="fceumm_overscan_h" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="fceumm_overscan_v" values="enabled|disabled" default="enabled"/>
+		<setting label="30006" type="select" id="fceumm_palette" values="default|asqrealc|nintendo-vc|rgb|yuv-v3|unsaturated-final|sony-cxa2025as-us|pal|bmf-final2|bmf-final3|smooth-fbx|composite-direct-fbx|pvm-style-d93-fbx|ntsc-hardware-fbx|nes-classic-fbx-fs|nescap|wavebeam|raw|custom" default="default"/>
+		<setting label="30007" type="select" id="fceumm_ramstate" values="fill $ff|fill $00|random" default="fill $ff"/>
+		<setting label="30008" type="select" id="fceumm_region" values="Auto|NTSC|PAL|Dendy" default="Auto"/>
+		<setting label="30009" type="select" id="fceumm_show_crosshair" values="enabled|disabled" default="enabled"/>
+		<setting label="30010" type="select" id="fceumm_sndquality" values="Low|High|Very High" default="Low"/>
+		<setting label="30011" type="select" id="fceumm_sndvolume" values="150|160|170|180|190|200|210|220|230|240|250|0|10|20|30|40|50|60|70|80|90|100|110|120|130|140" default="150"/>
+		<setting label="30012" type="select" id="fceumm_swapduty" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="fceumm_turbo_delay" values="3|5|10|15|30|60|1|2" default="3"/>
+		<setting label="30014" type="select" id="fceumm_turbo_enable" values="None|Player 1|Player 2|Both" default="None"/>
+		<setting label="30015" type="select" id="fceumm_up_down_allowed" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="fceumm_zapper_mode" values="lightgun|mouse" default="lightgun"/>
+	</category>
+</settings>

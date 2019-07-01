@@ -1,0 +1,125 @@
+﻿<div id="myPreferencesMenuPage" data-role="page" class="page libraryPage userPreferencesPage noSecondaryNavPage" data-title="${HeaderSettings}" data-backbutton="true">
+
+    <div class="padded-left padded-right padded-bottom-page padded-top">
+        <div class="readOnlyContent" style="margin: 0 auto;">
+
+            <div class="verticalSection userInfoSection">
+
+                <div class="sectionTitleContainer flex">
+                    <div class="userImage hide" style="margin-right:1.5em;"></div>
+
+                    <div class="flex flex-direction-column">
+                        <h2 class="sectionTitle headerUser" style="margin-top:0;"></h2>
+
+                        <div class="flex">
+                            <a is="emby-linkbutton" href="selectserver.html" class="selectServer hide raised">
+                                <span class="listItemBodyText">${HeaderSelectServer}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="verticalSection verticalSection-extrabottompadding">
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkDisplayPreferences listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe333;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${HeaderDisplay}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkHomeScreenPreferences listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xE88a;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${TabHomeScreen}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkLanguagePreferences listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe038;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${TitlePlayback}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkSubtitleSettings listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe01c;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${Subtitles}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkMyProfile listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe7fd;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${ButtonProfile}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkCameraUpload hide listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe410;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${TabCameraUpload}</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a is="emby-linkbutton" style="display:block; padding: 0; margin:0;" data-ripple="false" href="#" class="lnkSync hide listItem-border">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">&#xe2c4;</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${Downloads}</div>
+                        </div>
+                    </div>
+                </a>
+                <a is="emby-linkbutton" href="dashboard.html" style="display: block; padding: 0; margin:0;" class="listItem-border adminSection">
+                    <div class="listItem">
+                        <i class="md-icon listItemIcon listItemIcon-transparent">dashboard</i>
+                        <div class="listItemBody">
+                            <div class="listItemBodyText">${ButtonServerDashboard}</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="verticalSection loginSection hide">
+
+                <div class="hide">
+                    <h2 class="sectionTitle">${HeaderLoginSettings}</h2>
+
+                    <div class="selectContainer">
+                        <select is="emby-select" class="selectRememberLogin" label="${LabelRememberLogin}">
+                            <option value="yes">${Yes}</option>
+                            <option value="no">${No}</option>
+                        </select>
+                    </div>
+
+                    <div class="selectContainer">
+                        <select is="emby-select" class="selectAutoLogout" label="${LabelAutomaticallySignOut}">
+                            <option value="0">${No}</option>
+                            <option value="no">${No}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="listItem btnLogout listItem-border">
+                    <i class="md-icon listItemIcon listItemIcon-transparent">lock</i>
+                    <div class="listItemBody">
+                        <div class="listItemBodyText">${HeaderSignOut}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

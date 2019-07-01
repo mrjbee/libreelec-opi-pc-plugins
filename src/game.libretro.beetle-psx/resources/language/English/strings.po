@@ -1,0 +1,149 @@
+# game.libretro.beetle-psx language file
+# Addon Name: game.libretro.beetle-psx
+# Addon id: game.libretro.beetle-psx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-psx\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Analog self-calibration"
+msgstr ""
+
+msgctxt "#30002"
+msgid "DualShock Analog button toggle"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CD Access Method (restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Increase CD loading speed"
+msgstr ""
+
+msgctxt "#30005"
+msgid "CPU frequency scaling (overclock)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Display internal FPS"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Dithering pattern"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Enable memory card 1"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Port 1: Multitap enable"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Port 2: Multitap enable"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Frame duping (speedup)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "GPU rasterizer overclock"
+msgstr ""
+
+msgctxt "#30014"
+msgid "GTE Overclock"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Gun Cursor"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Additional Cropping"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Offset Cropped Image"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Initial scanline"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Initial scanline PAL"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Internal GPU resolution"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Last scanline"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Last scanline PAL"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Line-to-quad hack"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Mouse Sensitivity"
+msgstr ""
+
+msgctxt "#30025"
+msgid "NegCon Twist Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "NegCon Twist Response"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Renderer"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Software framebuffer"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Shared memcards (restart)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Skip BIOS"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Memcard 0 method"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Widescreen mode hack"
+msgstr ""

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="inputstream.rtmp" version="2.0.5.1" name="RTMP Input" provider-name="spiff">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
+  </requires>
+  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" library_linux="inputstream.rtmp.so.2.0.5"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">InputStream Client for RTMP streams</summary>
+    <description lang="en">InputStream Client for RTMP streams using librtmp</description>
+    <platform/>
+  </extension>
+</addon>

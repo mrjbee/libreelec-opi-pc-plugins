@@ -1,0 +1,1210 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "2e4b514d1c3f0dae51d723fca69fef69653308d2"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "EmbyServer/4.1.0.26": {
+        "dependencies": {
+          "BDInfo": "4.1.0.26",
+          "DvdLib": "4.1.0.26",
+          "Emby.Codecs": "4.1.0.26",
+          "Emby.Codecs.Dxva": "4.1.0.26",
+          "Emby.Drawing": "4.1.0.26",
+          "Emby.Drawing.Skia": "4.1.0.26",
+          "Emby.LiveTV": "4.1.0.26",
+          "Emby.Photos": "4.1.0.26",
+          "Emby.Server.Connect": "4.1.0.26",
+          "Emby.Server.Implementations": "4.1.0.26",
+          "Emby.Server.Sync": "4.1.0.26",
+          "MediaBrowser.Api": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.LocalMetadata": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "MediaBrowser.Providers": "4.1.0.26",
+          "MediaBrowser.WebDashboard": "4.1.0.26",
+          "Microsoft.Extensions.Hosting": "2.2.0",
+          "Microsoft.Win32.Registry": "4.5.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0",
+          "PlaylistsNET": "1.0.3",
+          "RSSDP": "4.1.0.26",
+          "SimpleInjector": "4.4.3",
+          "SkiaSharp": "1.68.0",
+          "SocketHttpListener": "4.1.0.26",
+          "System.ServiceProcess.ServiceController": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.1",
+          "System.Text.Encodings.Web": "4.5.0",
+          "SQLitePCLRaw.provider.sqlite3": "1.1.11.121"
+        },
+        "runtime": {
+          "EmbyServer.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {},
+      "Microsoft.Extensions.Configuration/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.2.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Primitives": "2.2.0",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.2.0": {
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "PlaylistsNET/1.0.3": {
+        "runtime": {
+          "lib/netstandard1.4/PlaylistsNET.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "ServiceStack.Text.Core/5.4.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/ServiceStack.Text.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.4.0.0"
+          }
+        }
+      },
+      "SharpCompress/0.22.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpCompress.dll": {
+            "assemblyVersion": "0.22.0.0",
+            "fileVersion": "0.22.0.0"
+          }
+        }
+      },
+      "SimpleInjector/4.4.3": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleInjector.dll": {
+            "assemblyVersion": "4.4.3.0",
+            "fileVersion": "4.4.3.0"
+          }
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "rid": "tizen-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "rid": "tizen-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.Diagnostics.EventLog/4.5.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Security.Permissions": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "System.Threading.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Memory/4.5.2": {},
+      "System.Runtime/4.3.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtimeTargets": {
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.ServiceProcess.ServiceController/4.5.0": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Threading.AccessControl/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.AccessControl.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Threading.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "BDInfo/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "BDInfo.dll": {}
+        }
+      },
+      "DvdLib/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "DvdLib.dll": {}
+        }
+      },
+      "Emby.Codecs/4.1.0.26": {
+        "dependencies": {
+          "Emby.Server.MediaEncoding": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Codecs.dll": {}
+        }
+      },
+      "Emby.Codecs.Dxva/4.1.0.26": {
+        "dependencies": {
+          "Emby.Server.MediaEncoding": "4.1.0.26",
+          "SharpDX.DXGI": "4.2.0.0",
+          "SharpDX.Direct3D9": "4.2.0.0",
+          "SharpDX.MediaFoundation": "4.2.0.0",
+          "SharpDX.Direct3D11": "4.2.0.0",
+          "SharpDX": "4.2.0.0"
+        },
+        "runtime": {
+          "Emby.Codecs.Dxva.dll": {}
+        }
+      },
+      "Emby.Drawing/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Drawing.dll": {}
+        }
+      },
+      "Emby.Drawing.Skia/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "SkiaSharp": "1.68.0"
+        },
+        "runtime": {
+          "Emby.Drawing.Skia.dll": {}
+        }
+      },
+      "Emby.LiveTV/4.1.0.26": {
+        "dependencies": {
+          "Emby.Server.MediaEncoding": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "PlaylistsNET": "1.0.3"
+        },
+        "runtime": {
+          "Emby.LiveTV.dll": {}
+        }
+      },
+      "Emby.Notifications/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Notifications.dll": {}
+        }
+      },
+      "Emby.Photos/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Photos.dll": {}
+        }
+      },
+      "Emby.Server.Connect/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Server.Connect.dll": {}
+        }
+      },
+      "Emby.Server.Implementations/4.1.0.26": {
+        "dependencies": {
+          "Emby.Drawing": "4.1.0.26",
+          "Emby.LiveTV": "4.1.0.26",
+          "Emby.Notifications": "4.1.0.26",
+          "Emby.Photos": "4.1.0.26",
+          "Emby.Server.MediaEncoding": "4.1.0.26",
+          "Emby.Sqlite": "4.1.0.26",
+          "MediaBrowser.Api": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.LocalMetadata": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "MediaBrowser.Naming": "1.1.5",
+          "MediaBrowser.Providers": "4.1.0.26",
+          "MediaBrowser.WebDashboard": "4.1.0.26",
+          "Microsoft.OpenApi": "1.1.2",
+          "PlaylistsNET": "1.0.3",
+          "RSSDP": "4.1.0.26",
+          "SQLitePCL.pretty.core": "1.1.8",
+          "SQLitePCLRaw.core": "1.1.11",
+          "ServiceStack.Text.Core": "5.4.0",
+          "SharpCompress": "0.22.0",
+          "SimpleInjector": "4.4.3",
+          "System.Memory": "4.5.2",
+          "System.Text.Encoding.CodePages": "4.5.1",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "Emby.Server.Implementations.dll": {}
+        }
+      },
+      "Emby.Server.MediaEncoding/4.1.0.26": {
+        "dependencies": {
+          "BDInfo": "4.1.0.26",
+          "DvdLib": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Server.MediaEncoding.dll": {}
+        }
+      },
+      "Emby.Server.Sync/4.1.0.26": {
+        "dependencies": {
+          "Emby.Sqlite": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "SQLitePCL.pretty.core": "1.1.8",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "Emby.Server.Sync.dll": {}
+        }
+      },
+      "Emby.Sqlite/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Model": "4.1.0.26",
+          "SQLitePCL.pretty.core": "1.1.8"
+        },
+        "runtime": {
+          "Emby.Sqlite.dll": {}
+        }
+      },
+      "MediaBrowser.Api/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "MediaBrowser.Api.dll": {}
+        }
+      },
+      "MediaBrowser.Common/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Model": "4.1.0.26",
+          "System.Memory": "4.5.2"
+        },
+        "runtime": {
+          "MediaBrowser.Common.dll": {}
+        }
+      },
+      "MediaBrowser.Controller/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "MediaBrowser.Controller.dll": {}
+        }
+      },
+      "MediaBrowser.LocalMetadata/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "MediaBrowser.LocalMetadata.dll": {}
+        }
+      },
+      "MediaBrowser.Model/4.1.0.26": {
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "runtime": {
+          "MediaBrowser.Model.dll": {}
+        }
+      },
+      "MediaBrowser.Naming/1.1.5": {
+        "dependencies": {
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "Emby.Naming.dll": {}
+        }
+      },
+      "MediaBrowser.Providers/4.1.0.26": {
+        "dependencies": {
+          "DvdLib": "4.1.0.26",
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "PlaylistsNET": "1.0.3"
+        },
+        "runtime": {
+          "MediaBrowser.Providers.dll": {}
+        }
+      },
+      "MediaBrowser.WebDashboard/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "MediaBrowser.WebDashboard.dll": {}
+        }
+      },
+      "RSSDP/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Controller": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26",
+          "System.Memory": "4.5.2"
+        },
+        "runtime": {
+          "RSSDP.dll": {}
+        }
+      },
+      "SocketHttpListener/4.1.0.26": {
+        "dependencies": {
+          "MediaBrowser.Common": "4.1.0.26",
+          "MediaBrowser.Model": "4.1.0.26"
+        },
+        "runtime": {
+          "SocketHttpListener.dll": {}
+        }
+      },
+      "SQLitePCL.pretty.core/1.1.8": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "SQLitePCL.pretty.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3/1.1.11.121": {
+        "runtime": {
+          "SQLitePCLRaw.provider.sqlite3.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpDX.DXGI.Reference/4.2.0.0": {
+        "runtime": {
+          "SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D9.Reference/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Direct3D9.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.MediaFoundation.Reference/4.2.0.0": {
+        "runtime": {
+          "SharpDX.MediaFoundation.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D11.Reference/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Reference/4.2.0.0": {
+        "runtime": {
+          "SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmbyServer/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nOP8R1mVb/6mZtm2qgAJXn/LFm/2kMjHDAg/QJLFG6CuWYJtaD3p1BwQhufBVvRzL9ceJ/xF0SQ0qsI2GkDQAA==",
+      "path": "microsoft.extensions.configuration/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
+      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vJ9xvOZCnUAIHcGC3SU35r3HKmHTVIeHzo6u/qzlHAqD8m6xv92MLin4oJntTvkpKxVX3vI1GFFkIQtU3AdlsQ==",
+      "path": "microsoft.extensions.configuration.binder/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.binder.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
+      "path": "microsoft.extensions.dependencyinjection/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EcnaSsPTqx2MGnHrmWOD0ugbuuqVT8iICqSqPzi45V5/MA1LjUNb0kwgcxBGqizV1R+WeBK7/Gw25Jzkyk9bIw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tbDHZnBJkjYd9NjlRZ9ondDiv1Te3KYCTW2RWpR1B0e1Z8+EnFRo7qNnHkkSCixLdlPZzhjlX24d/PixQ7w2dA==",
+      "path": "microsoft.extensions.fileproviders.physical/2.2.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZSsHZp3PyW6vk37tDEdypjgGlNtpJ0EixBMOfUod2Thx7GtwfFSAQXUQx8a8BN8vfWKGGMbp7jPWdoHx/At4wQ==",
+      "path": "microsoft.extensions.filesystemglobbing/2.2.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PxZPd5QbWr8+3JN2segEaD7IAYI+mR8ZmMqgo6GOk+E+UKnRcbC3RSQgJrZYuWVQwJCvdxesO5e64LSHC1zC8g==",
+      "path": "microsoft.extensions.hosting/2.2.0",
+      "hashPath": "microsoft.extensions.hosting.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+k4AEn68HOJat5gj1TWa6X28WlirNQO9sPIIeQbia+91n03esEtMSSoekSTpMjUzjqtJWQN3McVx0GvSPFHF/Q==",
+      "path": "microsoft.extensions.hosting.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxqhadc9FCmFHzU+fz3oc8sFlE6IadViYg8dfUdGzJZ2JUxnCsRghBhhOWdM4B2zSZqEc+0BjliBh/oNdRZuig==",
+      "path": "microsoft.extensions.logging/2.2.0",
+      "hashPath": "microsoft.extensions.logging.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
+      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UpZLNLBpIZ0GTebShui7xXYh6DmBHjWM8NxGxZbdQh/bPZ5e6YswqI+bru6BnEL5eWiOdodsXtEz3FROcgi/qg==",
+      "path": "microsoft.extensions.options/2.2.0",
+      "hashPath": "microsoft.extensions.options.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O06QULX5TFI9vFWpt3nAxM517Vvi4TKgDsq21P+qnoXXsBgERrK4zbQego3CwXLPfwLrlQhoaztemLivOAFTYQ==",
+      "path": "microsoft.openapi/1.1.2",
+      "hashPath": "microsoft.openapi.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "PlaylistsNET/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L7nsn8xgglxkojoMnYTM52jHl0QCitkQzoiKATvMf1mkBJY+avfl2APdidzEMVYAHHV0ZWIheC4iI5yVP9A2Zw==",
+      "path": "playlistsnet/1.0.3",
+      "hashPath": "playlistsnet.1.0.3.nupkg.sha512"
+    },
+    "ServiceStack.Text.Core/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ltNfhP3PNrbdVU1wVFueSHzVqQ1/hbGGxoxSwvVO3IkjO+nrS6zQfPPfErvvSlngJKs5IpxFdlPlMRDF7Qs5JA==",
+      "path": "servicestack.text.core/5.4.0",
+      "hashPath": "servicestack.text.core.5.4.0.nupkg.sha512"
+    },
+    "SharpCompress/0.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Bujm/iOJif3Q8DFYPLsoOx/I7Z/QG9z6B3ZX4wzm0HPCfmO5hksTunwWEnySftH33A6IL3fJL1zYHBvkTKkrg==",
+      "path": "sharpcompress/0.22.0",
+      "hashPath": "sharpcompress.0.22.0.nupkg.sha512"
+    },
+    "SimpleInjector/4.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ga3JUEpqHZjrPSUF3Jh7WsGXNduDmtFP7HVaRwzZYk5IB8dpblhYbxAcSM8+mPXmCfhnpOSuuhDIpKg2nwneNg==",
+      "path": "simpleinjector/4.4.3",
+      "hashPath": "simpleinjector.4.4.3.nupkg.sha512"
+    },
+    "SkiaSharp/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptuxAKk9FiClNnAgWM8hVMCYw/B0hUJWZ8W6efnIAtJmJn/Xl4jvxxDF5WOqfQYCLVzxXw5gvBPVxvTLblFp0g==",
+      "path": "skiasharp/1.68.0",
+      "hashPath": "skiasharp.1.68.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "System.ComponentModel/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u9Ie+qRg4BhhBIyd/YTWr1kdwZfF7P63R3L1thKoZ8O1had+gHX+M1p7QD4plCVa9CBQBxlqS4Fttpyxo2DtKw==",
+      "path": "system.componentmodel/4.0.1",
+      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QaQAhEk18QSBPSu4VjXcznvjlg45IoXcJJNS5hcoqyyLj58g/SzQwpYXUrdzo+UtHV0grmOzFwABxhCYSTTp5Q==",
+      "path": "system.diagnostics.eventlog/4.5.0",
+      "hashPath": "system.diagnostics.eventlog.4.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ohf9h6em5CjPaAzupGtW/TWMzX6aVfIGPh7bq5KQmfvYJr+DqvOa0cRS9ggFKGIuvKTModCQEacGC/CwE8j7cg==",
+      "path": "system.memory/4.5.2",
+      "hashPath": "system.memory.4.5.2.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "System.ServiceProcess.ServiceController/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8DGUtcNHf9TlvSVemKMFiqcOWJ4OdGBgvpcGL/cYossGf5ApMQdPUQS8vXHTBmlbYAcG+JXsjMFGAHp2oJrr+Q==",
+      "path": "system.serviceprocess.servicecontroller/4.5.0",
+      "hashPath": "system.serviceprocess.servicecontroller.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "path": "system.text.encodings.web/4.5.0",
+      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "System.Threading.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZU4JNV9eHPw3TAdIJCDH07u9EfGFGgNJnaga8aFjcdvIIZKq4A+ZqaQNvUMFIbdCMPceYzt8JT5MdYIXAOlJ9A==",
+      "path": "system.threading.accesscontrol/4.5.0",
+      "hashPath": "system.threading.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "BDInfo/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DvdLib/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Codecs/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Codecs.Dxva/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Drawing/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Drawing.Skia/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.LiveTV/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Notifications/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Photos/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Server.Connect/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Server.Implementations/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Server.MediaEncoding/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Server.Sync/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emby.Sqlite/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Api/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Common/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Controller/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.LocalMetadata/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Model/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Naming/1.1.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.Providers/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediaBrowser.WebDashboard/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RSSDP/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SocketHttpListener/4.1.0.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCL.pretty.core/1.1.8": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCLRaw.provider.sqlite3/1.1.11.121": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.DXGI.Reference/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Direct3D9.Reference/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.MediaFoundation.Reference/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Direct3D11.Reference/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Reference/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

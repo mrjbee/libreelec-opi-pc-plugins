@@ -1,0 +1,118 @@
+# game.libretro.beetle-pce-fast language file
+# Addon Name: game.libretro.beetle-pce-fast
+# Addon id: game.libretro.beetle-pce-fast
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-pce-fast\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Turbo Delay"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Turbo ON/OFF Toggle"
+msgstr ""
+
+msgctxt "#30003"
+msgid "(CD) ADPCM Volume %"
+msgstr ""
+
+msgctxt "#30004"
+msgid "(CD) CDDA Volume %"
+msgstr ""
+
+msgctxt "#30005"
+msgid "(CD) CD PSG Volume %"
+msgstr ""
+
+msgctxt "#30006"
+msgid "(CD) CD Speed"
+msgstr ""
+
+msgctxt "#30007"
+msgid "CD Bios (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "CD Image Cache (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Horizontal Overscan (352 Width Mode Only)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Initial scanline"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Last scanline"
+msgstr ""
+
+msgctxt "#30012"
+msgid "No Sprite Limit (Restart)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "CPU Overclock Multiplier (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "P1 Turbo II"
+msgstr ""
+
+msgctxt "#30015"
+msgid "P1 Turbo I"
+msgstr ""
+
+msgctxt "#30016"
+msgid "P2 Turbo II"
+msgstr ""
+
+msgctxt "#30017"
+msgid "P2 Turbo I"
+msgstr ""
+
+msgctxt "#30018"
+msgid "P3 Turbo II"
+msgstr ""
+
+msgctxt "#30019"
+msgid "P3 Turbo I"
+msgstr ""
+
+msgctxt "#30020"
+msgid "P4 Turbo II"
+msgstr ""
+
+msgctxt "#30021"
+msgid "P4 Turbo I"
+msgstr ""
+
+msgctxt "#30022"
+msgid "P5 Turbo II"
+msgstr ""
+
+msgctxt "#30023"
+msgid "P5 Turbo I"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Alternate Turbo Hotkey"
+msgstr ""
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="mame2014_alternate_renderer" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="mame2014_auto_save" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="mame2014_boot_from_cli" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="mame2014_boot_to_osd" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="mame2014_cheats_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="mame2014_hide_infoscreen" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="mame2014_hide_nagscreen" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="mame2014_hide_warnings" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="mame2014_mouse_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="mame2014_read_config" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="mame2014_throttle" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

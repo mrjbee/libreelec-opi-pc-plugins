@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="mame2003-crosshair_enabled" values="enabled|disabled" default="enabled"/>
+		<setting label="30002" type="select" id="mame2003-dcs-speedhack" values="enabled|disabled" default="enabled"/>
+		<setting label="30003" type="select" id="mame2003-dialsharexy" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="mame2003-external_hiscore" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="mame2003-frameskip" values="0|1|2|3|4|5" default="0"/>
+		<setting label="30006" type="select" id="mame2003-mouse_device" values="mouse|pointer|disabled" default="mouse"/>
+		<setting label="30007" type="select" id="mame2003-rstick_to_btns" values="enabled|disabled" default="enabled"/>
+		<setting label="30008" type="select" id="mame2003-sample_rate" values="48000|8000|11025|22050|44100" default="48000"/>
+		<setting label="30009" type="select" id="mame2003-skip-rom-verify" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="mame2003-skip_disclaimer" values="enabled|disabled" default="enabled"/>
+		<setting label="30011" type="select" id="mame2003-skip_warnings" values="disabled|enabled" default="disabled"/>
+		<setting label="30012" type="select" id="mame2003-tate_mode" values="disabled|enabled" default="disabled"/>
+		<setting label="30013" type="select" id="mame2003-vector-antialias" values="enabled|disabled" default="enabled"/>
+		<setting label="30014" type="select" id="mame2003-vector-beam-width" values="1.2|1|1.4|1.6|1.8|2|2.5|3|4|5|6|7|8|9|10|11|12" default="1.2"/>
+		<setting label="30015" type="select" id="mame2003-vector-flicker" values="20|0|10|30|40|50|60|70|80|90|100" default="20"/>
+		<setting label="30016" type="select" id="mame2003-vector-intensity" values="1.5|0.5|1|2|2.5|3" default="1.5"/>
+		<setting label="30017" type="select" id="mame2003-vector-resolution-multiplier" values="1|2|3|4|5|6|7|8|9|10" default="1"/>
+		<setting label="30018" type="select" id="mame2003-vector-translucency" values="enabled|disabled" default="enabled"/>
+	</category>
+</settings>

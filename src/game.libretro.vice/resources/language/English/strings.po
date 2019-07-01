@@ -1,0 +1,102 @@
+# game.libretro.vice language file
+# Addon Name: game.libretro.vice
+# Addon id: game.libretro.vice
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vice\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-12-05 21:00i\n"
+"PO-Revision-Date: 2017-12-05 21:00i\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "C64Model"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Controller0 type"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Drive8Type"
+msgstr ""
+
+msgctxt "#30004"
+msgid "DriveTrueEmulation"
+msgstr ""
+
+msgctxt "#30005"
+msgid "External palette"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Controller0 port"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Retro joy0"
+msgstr ""
+
+msgctxt "#30008"
+msgid "SidModel"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "#30010"
+msgid "4-player adapter"
+msgstr ""
+
+msgctxt "#30011"
+msgid "RetroPad B"
+msgstr ""
+
+msgctxt "#30012"
+msgid "RetroPad L"
+msgstr ""
+
+msgctxt "#30013"
+msgid "RetroPad L2"
+msgstr ""
+
+msgctxt "#30014"
+msgid "RetroPad L3"
+msgstr ""
+
+msgctxt "#30015"
+msgid "RetroPad R"
+msgstr ""
+
+msgctxt "#30016"
+msgid "RetroPad R2"
+msgstr ""
+
+msgctxt "#30017"
+msgid "RetroPad R3"
+msgstr ""
+
+msgctxt "#30018"
+msgid "RetroPad START"
+msgstr ""
+
+msgctxt "#30019"
+msgid "RetroPad X"
+msgstr ""
+
+msgctxt "#30020"
+msgid "RetroPad Y"
+msgstr ""
+

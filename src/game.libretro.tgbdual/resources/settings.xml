@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="tgbdual_gblink_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="tgbdual_screen_placement" values="horizontal|vertical" default="horizontal"/>
+		<setting label="30003" type="select" id="tgbdual_single_screen_mp" values="both players|player 1 only|player 2 only" default="both players"/>
+		<setting label="30004" type="select" id="tgbdual_switch_screens" values="normal|switched" default="normal"/>
+	</category>
+</settings>

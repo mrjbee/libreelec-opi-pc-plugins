@@ -1,0 +1,194 @@
+﻿<div id="moviesPage" data-role="page" data-dom-cache="true" class="page libraryPage backdropPage collectionEditorPage pageWithAbsoluteTabs withTabs" data-backdroptype="movie">
+
+    <div class="pageTabContent tabContent" data-index="0">
+        <div class="alphaPicker alphaPicker-vertical alphaPicker-fixed alphaPicker-fixed-left focuscontainer-y focuscontainer-left hide"></div>
+
+
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="paper-icon-button-light" class="btnPreviousPage" disabled>
+                <i class="md-icon">&#xE5C4;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnNextPage">
+                <i class="md-icon">&#xE5C8;</i>
+            </button>
+
+            <button is="emby-button" class="btnPlay hide button-flat listTextButton-autohide">
+                <span>${HeaderPlayAll}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnPlay hide listIconButton-autohide">
+                <i class="md-icon">&#xE037;</i>
+            </button>
+            <button is="emby-button" class="btnShuffle hide button-flat listTextButton-autohide">
+                <span>${Shuffle}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnShuffle hide listIconButton-autohide">
+                <i class="md-icon">&#xE043;</i>
+            </button>
+            <button is="emby-button" class="btnSort hide button-flat listTextButton-autohide">
+                <span class="btnSortText"></span>
+                <i class="md-icon btnSortIcon">&#xE5D8;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnSort hide listIconButton-autohide">
+                <i class="md-icon">&#xE164;</i>
+            </button>
+            <button is="emby-button" class="btnFilter button-flat listTextButton-autohide">
+                <span>${Filter}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnFilter listIconButton-autohide" data-ripple="false" style="overflow:visible;">
+                <i class="md-icon">&#xE152;</i>
+            </button>
+            <button is="emby-button" class="btnViewSettings button-flat listTextButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnViewSettings listIconButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+        </div>
+        <div is="emby-itemscontainer" class="itemsContainer vertical-wrap itemsContainer-withalphapicker focuscontainer-right focuscontainer-down padded-left padded-right" data-alphanumericshortcuts="true"></div>
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="paper-icon-button-light" class="btnPreviousPage" disabled>
+                <i class="md-icon">&#xE5C4;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnNextPage">
+                <i class="md-icon">&#xE5C8;</i>
+            </button>
+        </div>
+    </div>
+    <div class="pageTabContent tabContent" data-index="1">
+
+        <div class="resumeSection hide verticalSection autoScrollSection">
+            <h2 class="sectionTitle sectionTitle-cards padded-left padded-right" style="display: inline-block; vertical-align: middle;">${HeaderContinueWatching}</h2>
+            <div is="emby-scroller" class="padded-top-focusscale padded-bottom-focusscale" data-mousewheel="false" data-centerfocus="true">
+                <div is="emby-itemscontainer" class="scrollSlider focuscontainer-x padded-left padded-right" data-monitor="videoplayback,markplayed"></div>
+            </div>
+        </div>
+        <div class="latestSection hide verticalSection autoScrollSection">
+
+            <div class="sectionTitleContainer sectionTitleContainer-cards">
+                <h2 class="sectionTitle sectionTitle-cards padded-left" style="display: inline-block; vertical-align: middle;">${HeaderLatestMovies}</h2>
+                <button is="paper-icon-button-light" type="button" class="submit categorySyncButton sectionTitleIconButton btnSyncLatest hide" data-category="Latest" title="${Download}">
+                    <i class="md-icon">&#xE2C4;</i>
+                </button>
+            </div>
+
+            <div is="emby-scroller" class="padded-top-focusscale padded-bottom-focusscale" data-mousewheel="false" data-centerfocus="true">
+                <div is="emby-itemscontainer" class="scrollSlider focuscontainer-x padded-left padded-right" data-monitor="videoplayback,markplayed"></div>
+            </div>
+        </div>
+
+        <div class="suggestions">
+        </div>
+    </div>
+    <div class="pageTabContent tabContent" data-index="2">
+        <div class="alphaPicker alphaPicker-vertical alphaPicker-fixed alphaPicker-fixed-left focuscontainer-y focuscontainer-left hide"></div>
+
+
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="emby-button" class="btnSort hide button-flat listTextButton-autohide">
+                <span class="btnSortText"></span>
+                <i class="md-icon btnSortIcon">&#xE5D8;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnSort hide listIconButton-autohide">
+                <i class="md-icon">&#xE164;</i>
+            </button>
+            <button is="emby-button" class="btnFilter button-flat listTextButton-autohide">
+                <span>${Filter}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnFilter listIconButton-autohide" data-ripple="false" style="overflow:visible;">
+                <i class="md-icon">&#xE152;</i>
+            </button>
+            <button is="emby-button" class="btnViewSettings button-flat listTextButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnViewSettings listIconButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+        </div>
+        <div is="emby-itemscontainer" class="itemsContainer vertical-wrap itemsContainer-withalphapicker focuscontainer-right focuscontainer-down padded-left padded-right" data-alphanumericshortcuts="true"></div>
+    </div>
+    <div class="pageTabContent tabContent" data-index="3">
+        <div class="alphaPicker alphaPicker-vertical alphaPicker-fixed alphaPicker-fixed-left focuscontainer-y focuscontainer-left hide"></div>
+
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="emby-button" class="btnSort hide button-flat listTextButton-autohide">
+                <span class="btnSortText"></span>
+                <i class="md-icon btnSortIcon">&#xE5D8;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnSort hide listIconButton-autohide">
+                <i class="md-icon">&#xE164;</i>
+            </button>
+            <button is="emby-button" class="btnFilter button-flat listTextButton-autohide">
+                <span>${Filter}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnFilter listIconButton-autohide" data-ripple="false" style="overflow:visible;">
+                <i class="md-icon">&#xE152;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnNewCollection listIconButton-autohide">
+                <i class="md-icon">add</i>
+            </button>
+            <button is="emby-button" class="btnViewSettings button-flat listTextButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnViewSettings listIconButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+        </div>
+
+        <div is="emby-itemscontainer" class="itemsContainer vertical-wrap itemsContainer-withalphapicker focuscontainer-right focuscontainer-down padded-left padded-right" data-alphanumericshortcuts="true"></div>
+    </div>
+    <div class="pageTabContent tabContent" data-index="4">
+        <div class="alphaPicker alphaPicker-vertical alphaPicker-fixed alphaPicker-fixed-left focuscontainer-y focuscontainer-left hide"></div>
+
+
+        <div is="emby-itemscontainer" class="itemsContainer vertical-wrap itemsContainer-withalphapicker focuscontainer-right focuscontainer-down padded-top padded-left padded-right" data-monitor="markfavorite" data-alphanumericshortcuts="true"></div>
+    </div>
+    <div class="pageTabContent tabContent genresContainer" data-index="5">
+    </div>
+    <div class="pageTabContent tabContent" data-index="6">
+        <div class="alphaPicker alphaPicker-vertical alphaPicker-fixed alphaPicker-fixed-left focuscontainer-y focuscontainer-left hide"></div>
+
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="paper-icon-button-light" class="btnPreviousPage" disabled>
+                <i class="md-icon">&#xE5C4;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnNextPage">
+                <i class="md-icon">&#xE5C8;</i>
+            </button>
+
+            <button is="emby-button" class="btnPlay hide button-flat listTextButton-autohide">
+                <span>${HeaderPlayAll}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnPlay hide listIconButton-autohide">
+                <i class="md-icon">&#xE037;</i>
+            </button>
+            <button is="emby-button" class="btnShuffle hide button-flat listTextButton-autohide">
+                <span>${Shuffle}</span>
+            </button>
+            <button is="paper-icon-button-light" class="btnShuffle hide listIconButton-autohide">
+                <i class="md-icon">&#xE043;</i>
+            </button>
+            <button is="emby-button" class="btnSort hide button-flat listTextButton-autohide">
+                <span class="btnSortText"></span>
+                <i class="md-icon btnSortIcon">&#xE5D8;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnSort hide listIconButton-autohide">
+                <i class="md-icon">&#xE164;</i>
+            </button>
+            <button is="emby-button" class="btnViewSettings button-flat listTextButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnViewSettings listIconButton-autohide">
+                <i class="md-icon">&#xE5D3;</i>
+            </button>
+        </div>
+        <div is="emby-itemscontainer" class="itemsContainer vertical-wrap itemsContainer-withalphapicker focuscontainer-right focuscontainer-down padded-left padded-right" data-alphanumericshortcuts="true"></div>
+        <div class="flex align-items-center focuscontainer-x itemsViewSettingsContainer padded-bottom">
+            <button is="paper-icon-button-light" class="btnPreviousPage" disabled>
+                <i class="md-icon">&#xE5C4;</i>
+            </button>
+            <button is="paper-icon-button-light" class="btnNextPage">
+                <i class="md-icon">&#xE5C8;</i>
+            </button>
+        </div>
+    </div>
+</div>

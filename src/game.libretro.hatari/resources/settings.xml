@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="Hatari_resolution" values="640x480|832x576|832x588|800x600|960x720|1024x768|1024x1024" default="640x480"/>
+	</category>
+</settings>

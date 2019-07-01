@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.tvmosaic"
+       name="TV Mosaic"
+       version="9.1.900.100"
+       provider-name="Anton Voyl (awiouy)">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV Mosaic</summary>
+    <description>
+TV Mosaic (1.0.0-16296) live and recorded TV for Kodi and DLNA clients
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- Initial addon
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>

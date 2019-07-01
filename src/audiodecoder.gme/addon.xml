@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="audiodecoder.gme" version="2.0.0.3" name="GME Audio Decoder" provider-name="spiff">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.global.filesystem" version="1.0.2"/>
+    <import addon="kodi.binary.instance.audiodecoder" version="2.0.0"/>
+  </requires>
+  <extension point="kodi.audiodecoder" name="gme" extension=".gbs|.spc|.nsf|.vgm|.kss|.hes|.ay|.sap|.sgc|.gmestream" tags="true" tracks="true" library_linux="audiodecoder.gme.so.2.0.0"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Game Music Emu Audio Decoder</summary>
+    <description lang="en">Game Music Emu Audio Decoder</description>
+    <platform/>
+  </extension>
+</addon>

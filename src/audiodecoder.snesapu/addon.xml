@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="audiodecoder.snesapu" version="2.0.0.3" name="SPC Audio Decoder" provider-name="spiff">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.global.filesystem" version="1.0.2"/>
+    <import addon="kodi.binary.instance.audiodecoder" version="2.0.0"/>
+  </requires>
+  <extension point="kodi.audiodecoder" name="spc" extension=".spc" tags="true" library_linux="audiodecoder.snesapu.so.2.0.0"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SPC Audio Decoder</summary>
+    <description lang="en">SPC Audio Decoder</description>
+    <platform/>
+  </extension>
+</addon>
