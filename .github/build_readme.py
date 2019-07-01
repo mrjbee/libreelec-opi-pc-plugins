@@ -80,8 +80,8 @@ def main():
                     branchlink=b['name'],
                     minversion=b['minversion'],
                     branchaddons='\n'.join([
-                            '- [__{nm}__]({link}) {id} v{ver}'.format(
-                                id=a.id, nm=a.name, link=a.zip, ver=a.version)
+                            '- [__{nm}__]({link}) {id} v{ver}'.encode('utf-8').format(
+                                id=a.id.encode('utf-8'), nm=a.name.encode('utf-8'), link=a.zip.encode('utf-8'), ver=a.version.encode('utf-8'))
                             for a in addons
                         ])
                 )
