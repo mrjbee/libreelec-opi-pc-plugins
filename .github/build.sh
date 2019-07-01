@@ -35,7 +35,7 @@ rm -rf $BUILD_DIR/* || exit 1
 rm -rf $BUILD_DIR/.github $BUILD_DIR/.travis.yml $BUILD_DIR/.gitignore || exit 1
 
 # Download create_repository.py
-create_repo_script_url='https://raw.githubusercontent.com/chadparry/kodi-repository.chad.parry.org/master/tools/create_repository.py'
+create_repo_script_url='https://raw.githubusercontent.com/mrjbee/libreelec-opi-pc-plugins/master/.github/create_repository.py'
 create_repository_py='.github/create_repository.py'
 wget -q -t 2 -O "$create_repository_py" "$create_repo_script_url" || curl --retry 2 -o "$create_repository_py" "$create_repo_script_url"
 
